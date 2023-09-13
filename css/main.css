@@ -29,6 +29,21 @@ h2{
 }
 
 
+div{
+    border-radius: 0;
+    padding: 10;
+    margin: 0;
+    text-align:center;
+}
+
+
+.fit{
+    margin: 0;
+    max-width: 99%;
+    max-height: 99%;
+}
+
+
 .knowledge {
     background-color: tomato;
     color: white;
