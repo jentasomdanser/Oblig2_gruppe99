@@ -28,6 +28,16 @@ h2{
     margin-inline-end: 0px;
 }
 
+
+.knowledge {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+        
+
 #author{
     color: orange;
 }
@@ -40,14 +50,5 @@ h2{
     box-sizing: inherit;
     line-height: 22px;
 }
-div {
-    display: block;
-}
 
-.knowledge{
-  background-color: tomato;
-  color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-}
+
