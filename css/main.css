@@ -1,3 +1,6 @@
+/*CSS fra https://arstechnica.com/gaming/2023/09/record-breaking-super-mario-bros-speedrun-approaches-robotic-perfection/*/
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: bitter;
     font-weight: 400;
@@ -24,6 +27,11 @@ h2{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+#author{
+    color: orange;
+}
+
 .bottom-left{
     font-size: 13px;
     font-weight: 600;
