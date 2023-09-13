@@ -1,3 +1,6 @@
+/*CSS fra https://arstechnica.com/gaming/2023/09/record-breaking-super-mario-bros-speedrun-approaches-robotic-perfection/*/
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: bitter;
     font-weight: 400;
@@ -24,6 +27,62 @@ h2{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+
+div{
+    border-radius: 0;
+    padding: 10;
+    margin: 0;
+    text-align:center;
+}
+
+
+.fit{
+    margin: 0;
+    max-width: 99%;
+    max-height: 99%;
+}
+
+.elvishtext{
+    font-weight: 400;
+    font-size: 19px;
+    background-color: #009b2e;
+    color: #000000;
+    border: 2px solid #000000;
+    margin: 20px;
+    padding:20px;
+}
+
+
+/* css fra https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals  men vi har den i css i steden for html*/
+.knowledge {
+    background-color: #c03535;
+    color: #ffffff;
+    border: 2px solid #000000;
+    margin: 20px;
+    padding: 20px;
+}
+  
+.skills {
+    background-color: #c03535;
+    color: #ffffff;
+    border: 2px solid #000000;
+    margin: 20px;
+    padding:20px;
+}
+.general_competence {
+    background-color: #c03535;
+    color: #ffffff;
+    border: 2px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#author{
+    color: orange;
+}
+
+
 .bottom-left{
     font-size: 13px;
     font-weight: 600;
@@ -32,6 +91,5 @@ h2{
     box-sizing: inherit;
     line-height: 22px;
 }
-div {
-    display: block;
-}
+
+
