@@ -43,19 +43,16 @@ div{
     max-height: 99%;
 }
 
-div{
-    border-radius: 0;
-    padding: 10;
-    margin: 0;
-    text-align:center;
+.elvishtext{
+    font-weight: 400;
+    font-size: 19px;
+    background-color: #009b2e;
+    color: #000000;
+    border: 2px solid #000000;
+    margin: 20px;
+    padding:20px;
 }
 
-
-.fit{
-    margin: 0;
-    max-width: 99%;
-    max-height: 99%;
-}
 
 /* css fra https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals  men vi har den i css i steden for html*/
 .knowledge {
@@ -84,6 +81,7 @@ div{
 #author{
     color: orange;
 }
+
 
 .bottom-left{
     font-size: 13px;
