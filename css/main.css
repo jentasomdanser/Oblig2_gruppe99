@@ -73,7 +73,7 @@ div{
 .general_competence {
     background-color: #c03535;
     color: #ffffff;
-    border: 2px;
+    border: 2px solid #000000;
     margin: 20px;
     padding: 20px;
 }
