@@ -30,9 +30,9 @@ h2{
 
 
 .knowledge {
-    background-color: tomato;
-    color: white;
-    border: 2px solid black;
+    background-color: #c03535;
+    color: #ffffff;
+    border: 2px solid #000000;
     margin: 20px;
     padding: 20px;
 }
@@ -43,6 +43,13 @@ h2{
     border: 2px solid #000000;
     margin: 20px;
     padding:20px;
+}
+.general_competence {
+    background-color: #c03535;
+    color: #ffffff;
+    border: 2px;
+    margin: 20px;
+    padding: 20px;
 }
 
 #author{
