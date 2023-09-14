@@ -54,6 +54,16 @@ div{
 }
 
 
+.elvish_alphabeth{
+    image-resolution: 200, 2400;
+}
+
+.elvish_text{
+    image-resolution: 200, 200;
+}
+
+
+
 /* css fra https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals  men vi har den i css i steden for html*/
 .knowledge {
     background-color: #c03535;
