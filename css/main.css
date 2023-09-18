@@ -75,22 +75,7 @@ div{
 
 
 /* css fra https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals  men endring i farger og stil */
-.knowledge {
-    background-color: #c03535;
-    color: #ffffff;
-    border: 2px solid #000000;
-    margin: 20px;
-    padding: 20px;
-}
-  
-.skills {
-    background-color: #c03535;
-    color: #ffffff;
-    border: 2px solid #000000;
-    margin: 20px;
-    padding: 20px;
-}
-.general_competence {
+.boxes {
     background-color: #c03535;
     color: #ffffff;
     border: 2px solid #000000;
