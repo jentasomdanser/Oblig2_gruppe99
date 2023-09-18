@@ -69,7 +69,8 @@ div{
 
 .elvish_alphabeth{
     image-resolution: 200, 2400;
-    border: 7px solid #000000;
+    /*border: 7px solid #000000;*/
+    /*width:100%;*/
 }
 
 .elvish_text{
