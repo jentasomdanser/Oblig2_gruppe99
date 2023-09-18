@@ -3,6 +3,8 @@
 body{
    background-color: #ffffff;
 }
+
+
 .nav{
     background-color: #1b1b1b;
     color: #ffffff;
@@ -54,6 +56,11 @@ div{
     margin: 0;
     max-width: 99%;
     max-height: 99%;
+}
+
+
+.ufoship-oslomet{
+    width:25%
 }
 
 .elvishtext{
