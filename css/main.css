@@ -1,12 +1,15 @@
 /*CSS fra https://arstechnica.com/gaming/2023/09/record-breaking-super-mario-bros-speedrun-approaches-robotic-perfection/*/
 
-
+body{
+   background-color: #ffffff;
+}
 .nav{
-    background-color: #c03535;
+    background-color: #1b1b1b;
     color: #ffffff;
-    border: 2px solid #000000;
+    border: 2px solid #313131;
     margin: 20px;
     padding: 20px;
+    
 }
 
 
@@ -56,7 +59,7 @@ div{
 .elvishtext{
     font-weight: 400;
     font-size: 19px;
-    background-color: #009b2e;
+    background-color: #356452;
     color: #000000;
     border: 2px solid #000000;
     margin: 20px;
@@ -66,6 +69,7 @@ div{
 
 .elvish_alphabeth{
     image-resolution: 200, 2400;
+    border: 7px solid #000000;
 }
 
 .elvish_text{
@@ -75,31 +79,16 @@ div{
 
 
 /* css fra https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals  men endring i farger og stil */
-.knowledge {
-    background-color: #c03535;
-    color: #ffffff;
-    border: 2px solid #000000;
-    margin: 20px;
-    padding: 20px;
-}
-  
-.skills {
-    background-color: #c03535;
-    color: #ffffff;
-    border: 2px solid #000000;
-    margin: 20px;
-    padding: 20px;
-}
-.general_competence {
-    background-color: #c03535;
-    color: #ffffff;
-    border: 2px solid #000000;
+.boxes {
+    background-color: #e7cca4;
+    color: #4b4843;
+    border: 2px solid #c7b38e;
     margin: 20px;
     padding: 20px;
 }
 
 #author{
-    color: orange;
+    color: #141414;
 }
 
 
