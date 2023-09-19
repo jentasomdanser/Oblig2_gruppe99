@@ -6,6 +6,7 @@ body{
 
 
 .nav{
+    font-size:1vw;
     background-color: #1b1b1b;
     color: #ffffff;
     border: 2px solid #313131;
@@ -20,7 +21,8 @@ h1, h2{
     font-weight: 400;
 }
 
-/*vw fungerer for h1, h2 og h3, men ser ikke ut til å fungere for teksen i tekstbokser. Teksten blir uansett for liten for mobilskjerm.*/
+/*vw fungerer for h1, h2 og h3, men ser ikke ut til å fungere for teksen i tekstbokser. Teksten blir uansett for liten for mobilskjerm.
+Jeg tror det er best å ikke bruke denne metoden til å skalere teksten*/
 h1{
     margin: 0;
     font-size: 4vw;
