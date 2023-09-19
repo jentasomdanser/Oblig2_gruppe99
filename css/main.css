@@ -20,7 +20,7 @@ h1, h2{
     font-weight: 400;
 }
 
-/*vw fungerer for h1, h2 og h3, men ser ikke ut til å fungere for teksen i tekstbokser*/
+/*vw fungerer for h1, h2 og h3, men ser ikke ut til å fungere for teksen i tekstbokser. Teksten blir uansett for liten for mobilskjerm.*/
 h1{
     margin: 0;
     font-size: 4vw;
