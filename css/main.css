@@ -32,7 +32,7 @@ h1{
 }
 h2{
     margin-top: 20px;
-    font-size: 2vw;
+    font-size: 26px;
     line-height: 1.23em;
     box-sizing: inherit;
     margin-block-start: 0.83em;
@@ -44,33 +44,33 @@ h2{
 h3{
     font-family: bitter;
     font-weight: 600;
-    font-size: 1.85vw;
+    font-size: 18px;
 }
 
 p{
     font-family: bitter;
     font-weight: 200;
-    font-size: 1.80vw;
+    font-size: 16px;
 }
 
 ul{
     font-family: bitter;
     font-weight: 200;
-    font-size: 1.80vw;
+    font-size: 16px;
 
 }
 
 li{
     font-family: bitter;
     font-weight: 200;
-    font-size: 1.80vw;
+    font-size: 16px;
 
 }
 
 div{
     font-family: bitter;
     font-weight: 200;
-    font-size: 1.80vw;
+    font-size: 16px;
     border-radius: 0;
     padding: 10;
     margin: 0;
@@ -92,7 +92,7 @@ div{
 
 .elvishtext{
     font-weight: 400;
-    font-size: 17;
+    font-size: 17px;
     background-color: #77685D;
     color: #000000;
     border: 2px solid #4A4238;
@@ -130,7 +130,6 @@ div{
 .bottom-left{
     font-size: 13px;
     font-weight: 600;
-    font-size: 0.75vw;
     border-bottom: 1px solid #ccc;
     padding: 6px 0;
     box-sizing: inherit;
