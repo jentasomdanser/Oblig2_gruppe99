@@ -7,8 +7,8 @@ body{
 
 .nav{
     font-size:1vw;
-    background-color: #ffb546;
-    border: 2px solid #313131;
+    background-color: #7EA8DF;
+    border: 3px solid #2f5a93;
     margin: 20px;
     padding: 20px;
     
@@ -95,7 +95,7 @@ div{
     font-size: 17px;
     background-color: #77685D;
     color: #000000;
-    border: 2px solid #4A4238;
+    border: 5px solid #4A4238;
     margin: 20px;
     padding:20px;
 }
