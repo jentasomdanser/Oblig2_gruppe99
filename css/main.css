@@ -1,95 +1,150 @@
 /*CSS fra https://arstechnica.com/gaming/2023/09/record-breaking-super-mario-bros-speedrun-approaches-robotic-perfection/*/
 
+body{
+    background-color: #ffffff;
+ }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: bitter;
-    font-weight: 400;
+ /*
+ 
+ @font-face {
+    font-family: "halfelven";
+    src: url("..\font\half-elven\halfelven.ttf") format("truetype");
 }
-
-h1{
-    margin: 0;
-    font-size: 34px;
-    line-height: 1.15em;
-    font-family: bitter;
-    font-weight: 400;
-    display: block;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-h2{
-    margin-top: 20px;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 1.23em;
-    box-sizing: inherit;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+*/
 
 
-div{
-    border-radius: 0;
-    padding: 10;
-    margin: 0;
-    text-align:center;
-}
-
-
-.fit{
-    margin: 0;
-    max-width: 99%;
-    max-height: 99%;
-}
-
-.elvishtext{
-    font-weight: 400;
-    font-size: 19px;
-    background-color: #009b2e;
-    color: #000000;
-    border: 2px solid #000000;
-    margin: 20px;
-    padding:20px;
-}
-
-
-/* css fra https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals  men vi har den i css i steden for html*/
-.knowledge {
-    background-color: #c03535;
-    color: #ffffff;
-    border: 2px solid #000000;
-    margin: 20px;
-    padding: 20px;
-}
-  
-.skills {
-    background-color: #c03535;
-    color: #ffffff;
-    border: 2px solid #000000;
-    margin: 20px;
-    padding:20px;
-}
-.general_competence {
-    background-color: #c03535;
-    color: #ffffff;
-    border: 2px;
-    margin: 20px;
-    padding: 20px;
-}
-
-#author{
-    color: orange;
-}
-
-
-.bottom-left{
-    font-size: 13px;
-    font-weight: 600;
-    border-bottom: 1px solid #ccc;
-    padding: 6px 0;
-    box-sizing: inherit;
-    line-height: 22px;
-}
+ .nav{
+     font-size:1vw;
+     background-color: #ffb546;
+     border: 2px solid #313131;
+     margin: 20px;
+     padding: 20px;
+     
+ }
+ 
+ 
+ h1, h2{
+     font-family: Luminari;
+     font-weight: 400;
+ }
+ 
+ /*vw fungerer for h1, h2 og h3, men ser ikke ut til å fungere for teksen i tekstbokser. Teksten blir uansett for liten for mobilskjerm.
+ Jeg tror det er best å ikke bruke denne metoden til å skalere teksten*/
+ h1{
+     margin: 0;
+     font-size: 34px;
+     line-height: 1.15em;
+     display: block;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+ }
+ h2{
+     margin-top: 20px;
+     font-size: 26px;
+     line-height: 1.23em;
+     box-sizing: inherit;
+     margin-block-start: 0.83em;
+     margin-block-end: 0.83em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+ }
+ 
+ h3{
+     font-family: bitter;
+     font-weight: 600;
+     font-size: 18px;
+ }
+ 
+ p{
+     font-family: bitter;
+     font-weight: 200;
+     font-size: 16px;
+ }
+ 
+ ul{
+     font-family: bitter;
+     font-weight: 200;
+     font-size: 16px;
+ 
+ }
+ 
+ li{
+     font-family: bitter;
+     font-weight: 200;
+     font-size: 16px;
+ 
+ }
+ 
+ div{
+     font-family: bitter;
+     font-weight: 200;
+     font-size: 16px;
+     border-radius: 0;
+     padding: 10;
+     margin: 0;
+     text-align:center;
+ }
+ 
+ 
+ .fit{
+     margin: 0;
+     max-width: 99%;
+     max-height: 99%;
+ }
+ 
+ /*
+ .ufoship-oslomet{
+     width:25%
+ }
+ */
+ 
+ .elvishtext{
+     font-weight: 400;
+     font-size: 17px;
+     background-color: #77685D;
+     color: #000000;
+     border: 2px solid #4A4238;
+     margin: 20px;
+     padding:20px;
+ }
+ 
+ 
+ .elvish_alphabeth{
+     image-resolution: 200, 2400;
+     /*border: 7px solid #000000;*/
+     /*width:100%;*/
+ }
+ 
+ .elvish_text{
+     image-resolution: 200, 200;
+ }
+ 
+ 
+ 
+ /* css fra https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals  men endring i farger og stil */
+ .boxes {
+     background-color: #e7cca4;
+     color: #4b4843;
+     border: 2px solid #c7b38e;
+     margin: 20px;
+     padding: 20px;
+ }
+ 
+ #author{
+     color: #141414;
+ }
+ 
+ 
+ .bottom-left{
+     font-size: 13px;
+     font-weight: 600;
+     border-bottom: 1px solid #ccc;
+     padding: 6px 0;
+     box-sizing: inherit;
+     line-height: 22px;
+ }
+ 
+ 
+ 
 
 
