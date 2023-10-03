@@ -6,12 +6,10 @@ body{
 
 
 .nav{
-    font-size:1vw;
-    background-color: #7EA8DF;
-    border: 3px solid #2f5a93;
-    margin: 20px;
-    padding: 20px;
-    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
 }
 
 
@@ -79,9 +77,9 @@ div{
 
 
 .fit{
-    margin: 0;
-    max-width: 99%;
-    max-height: 99%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
 }
 
 /*
@@ -111,10 +109,6 @@ div{
     image-resolution: 200, 200;
 }
 
-.container{
-    margin-left: 8cm;
-    margin-right: 8cm;
-}
 .footerbox{
     margin-left: 2cm;
 }
