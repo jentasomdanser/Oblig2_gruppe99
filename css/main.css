@@ -115,6 +115,9 @@ div{
     margin-left: 8cm;
     margin-right: 8cm;
 }
+.footerbox{
+    margin-left: 2cm;
+}
 
 /* css fra https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals  men endring i farger og stil */
 .boxes {
