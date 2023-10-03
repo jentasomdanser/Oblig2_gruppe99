@@ -6,7 +6,7 @@ body{
 
 
 .nav{
-    font-size:1vw;
+    font-size:16px;
     background-color: #7EA8DF;
     border: 3px solid #2f5a93;
     margin: 20px;
@@ -111,13 +111,14 @@ div{
     image-resolution: 200, 200;
 }
 
-.container{
-    margin-left: 8cm;
-    margin-right: 8cm;
-}
-.footerbox{
-    margin-left: 2cm;
-}
+
+@media screen and (min-width: 480px) {
+    .container{
+        margin-left: 8cm;
+        margin-right: 8cm;
+    }
+  }
+
 
 /* css fra https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals  men endring i farger og stil */
 .boxes {
