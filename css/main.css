@@ -111,7 +111,10 @@ div{
     image-resolution: 200, 200;
 }
 
-
+.container{
+    margin-left: 8cm;
+    margin-right: 8cm;
+}
 
 /* css fra https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals  men endring i farger og stil */
 .boxes {
