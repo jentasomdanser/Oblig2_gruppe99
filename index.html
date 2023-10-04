@@ -25,7 +25,8 @@
    <main>
      <br>
 
-      <div class="fit">
+    <div class="wrapper">
+        <div class="main-box">
 
     <h1>UFO spotted over OsloMet!</h1>
 
@@ -41,7 +42,12 @@
 
     <br>
 
-    <img src="images/ufoship-oslomet.png"/>
+    <picture>
+        <source srcset="images/ufoship-oslomet-small.webp" media="(max-width: 850px)">
+        <source srcset="images/ufoship-oslomet.webp" media="(max-width: 1500px)">
+        <img src="images/ufoship-oslomet.webp" alt="UFOship" style="width:auto;">
+      </picture>
+
 
      <p class="bottom-left">Photographer: Yasmin N. Garcia Avalo</p>
 
@@ -50,9 +56,10 @@
     <!--Vi brukte del -> bygg inn funksjonen i YouTube for videolenker og kode.-->
 
      <!--Nyheter skrevet av: https://chat.openai.com/share/63da47f2-fa4c-4083-9473-33817ff74011?fbclid=IwAR2FAD8sgWSOmWJbMTHm4Ie0CDOPldrz06i6uy67CFBE4yB-Vab5ZBsvIus-->
-     <div class="container">
+     
 
-       <div class="boxes">
+    <div class="secondary-box">
+
       <h3>"Aliens, Elves, and Hovering Spaceships: Unearthed Tablet Reveals Mind-Boggling Cosmic Chronicles at OsloMet!"</h3>
 
 
@@ -95,7 +102,7 @@
         sci-fi novel.</p>
     <p>Until then, keep your eyes on the skies and your minds open, for the universe is a vast and mysterious place, and sometimes the 
         truth is stranger than fiction.</p>
-    </div>
+    
 
 
     <h3>Elinor Runekeeper have translated some of the text from the scrolls, here is the results:</h3>
@@ -124,7 +131,7 @@
     <p>After 100 of thousands of our kind were killed at the battlefield, we finally fought back the Space People, and they have never returned.</p>  
     <p>Yet we fear their return in the future, when our kind no longer walk the Earth".</p>
     </div>
-    </div>
+    
 
 
     <p>Hør på podcasten med Professor Elinor Runekeeper her:</p> 
@@ -132,16 +139,20 @@
       <source src="music/intro-podcast.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
+    
     </div>
+
+
   
    </main>
 </body>
 
-<div class ="footerbox">
-    <footer>
+    <footer class ="footer-box">
+         
         <p>Håvard Elgsaas: s375084@oslomet.no, Yasmin N. Garcia Avalo: yagar3121@oslomet.no, Emma Agnethe Rasch Eldby: emeld7593@oslomet.no</p>
-        </footer>
-</div>
+        
+    </footer>
+        
 
 </html>
 
