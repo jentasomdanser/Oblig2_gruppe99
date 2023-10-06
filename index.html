@@ -4,36 +4,33 @@
     <meta charset="UTF-8">
     <title>Oblig2</title>
     <link rel="stylesheet" href="css/main.css">
-    <img src="images/avisnavnliten.png" alt="Fake Fantasy News"/>
-
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <header>
-<nav class="nav">
-    <a class="nav" href="index.html">F.F.N.</a>
-    <a class="nav" href="html2\index2.html">DATA1200</a>
-    <p>Hei</p>
-    <p>på</p>
-    <p>deg</p>
-</nav>
-
 
 </header>
 
 </head>
 
+<nav class="nav">
+    <img src="images/avisnavnliten.png" alt="Fake Fantasy News"/>
+    <a class="nav" href="index.html">F.F.N.</a>
+    <a class="nav" href="html2\index2.html">DATA1200</a>
+
+</nav>
+
 
 <body>
    <main>
-     <p>&nbsp;</p>
+     <br>
 
-      <div class="fit">
+    <div class="wrapper">
+        <div class="main-box">
 
     <h1>UFO spotted over OsloMet!</h1>
 
     <h2>And is elvish a language that actually existed in elven time?</h2>
-
-    <img src="/images/ufoship OsloMet.jpg" alt="UFO at OsloMet!"/>
 
     <!-- Sources for pictures used to photoshop "Cover of This Article" :
     OsloMet picture from: https://no.m.wikipedia.org/wiki/Fil:Pilestredet_46-48,_OsloMet_%28tidligere_Frydenlund_bryggeri%29.jpg
@@ -43,14 +40,26 @@
     <a id="author">Knut Flapstrudel</a>
     <span>- 9/13/2023, 11:00 AM</span>
 
+    <br>
+
+    <picture>
+        <source srcset="images/ufoship-oslomet-small.webp" media="(max-width: 850px)">
+        <source srcset="images/ufoship-oslomet.webp" media="(max-width: 1500px)">
+        <img src="images/ufoship-oslomet.webp" alt="UFOship" style="width:auto;">
+      </picture>
+
+
+     <p class="bottom-left">Photographer: Yasmin N. Garcia Avalo</p>
+
     </div>
 
     <!--Vi brukte del -> bygg inn funksjonen i YouTube for videolenker og kode.-->
 
      <!--Nyheter skrevet av: https://chat.openai.com/share/63da47f2-fa4c-4083-9473-33817ff74011?fbclid=IwAR2FAD8sgWSOmWJbMTHm4Ie0CDOPldrz06i6uy67CFBE4yB-Vab5ZBsvIus-->
-     <div class="container">
+     
 
-       <div class="boxes">
+    <div class="secondary-box">
+
       <h3>"Aliens, Elves, and Hovering Spaceships: Unearthed Tablet Reveals Mind-Boggling Cosmic Chronicles at OsloMet!"</h3>
 
 
@@ -93,13 +102,52 @@
         sci-fi novel.</p>
     <p>Until then, keep your eyes on the skies and your minds open, for the universe is a vast and mysterious place, and sometimes the 
         truth is stranger than fiction.</p>
+    </div>
 
+
+    <h3>Elinor Runekeeper have translated some of the text from the scrolls, here is the results:</h3>
+
+    <picture>
+        <source srcset="images\utdrag-fra-elvish-scrolls-small.webp" media="(max-width: 850px)">
+        <source srcset="images\utdrag-fra-elvish-scrolls.webp" media="(max-width: 1500px)">
+        <img src="images\utdrag-fra-elvish-scrolls.webp" alt="Ufoship" style="width:auto;">
+      </picture>
+
+    <p class="bottom-left">Part of the Elvish Scrolls</p>
+    
+    
+    <div class="elvishtext">
+    <p>Mey noyhk nu Akhw-u Saea, leik Phaonden, Jeouk yeh Krapientas Akhwu-as bajks yeh Trnubus nu Uvana.</p>
+    <p>Wehk Gvanto nu Ovilanus nu famr nubus dwark cvawk yeh Akhwu Vaharu, ahjr lepsigus Akhw-us mahiru Uvana-Trnubus, igsoj rsjako vjeru injasa podjaka.</p>
+    <p>Hidak fam prisj rsjakova mey yeh ex-sydamus, fuiska famr nubus gra tasjka qril yeh Famralush.</p>
+
+    <p>&nbsp;</p>   
+
+    <p>Translation: "In time of war, the elves, dwarfs and humans fought against the people of space.</p>
+    <p>After 100 of thousands of our kind were killed at the battlefield, we finally fought back the Space People, and they have never returned.</p>  
+    <p>Yet we fear their return in the future, when our kind no longer walk the Earth".</p>
+    </div>
+    </div>
+
+
+    <p>Hør på podcasten med Professor Elinor Runekeeper her:</p> 
+    <audio controls>
+      <source src="music/intro-podcast.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  
+   </main>
 </body>
-<div class ="footerbox">
-    <footer>
+
+    <footer class ="footer-box">
+         
         <p>Håvard Elgsaas: s375084@oslomet.no, Yasmin N. Garcia Avalo: yagar3121@oslomet.no, Emma Agnethe Rasch Eldby: emeld7593@oslomet.no</p>
-        <a href="html2\index2.html">index2.html</a>
-        </footer>
+        
+    </footer>
+        
+
+</html>
 
 
 
