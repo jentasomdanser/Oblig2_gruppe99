@@ -25,32 +25,7 @@
   }
 
   /* source of some of the code above: https://www.youtube.com/watch?v=SPQ17nosfyg */
-  /*.logo {
-    position: absolute; /* remove the logo from the flow 
-    left: 30px;   /* move the logo to left 
-    height: 20px;
-    width: 70px;
-    display:inline-block;
-    vertical-align:top;
-  }
-  .nav-bar {
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    display:inline-block;
-    vertical-align:top;
-  }
-  
-  .menu-bar {
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;    /* gap between menu items */
  
-  
-/* Source of code, then modified to fit our own code and desires: https://stackoverflow.com/questions/65456315/logo-on-the-left-and-menu-links-centered */
-
 /* .nav{
     font-size:16vpx;
     background-color: #7EA8DF;
@@ -73,6 +48,7 @@ body{
 
 .wrapper{
     display: block;
+    background-color: #7EA8DF;
     justify-content: center;
     text-align: center;
     grid-template-columns: 30vw auto minmax(300px, 30vw) 40px;
