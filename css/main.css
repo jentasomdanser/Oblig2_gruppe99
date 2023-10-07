@@ -1,4 +1,57 @@
-.nav{
+#header {
+    display: inline; 
+    justify-content: center; /* center everything */
+    align-items: center;
+    top: 0px;
+   
+  }
+  .logo {
+    position: absolute;
+    left: 0px; /* brings the logo to the very edge of page on the left side */
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  nav ul {
+    background-color: #7EA8DF;
+    padding-block: 29.3px;
+    font-size: 25px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  /* source of some of the code above: https://www.youtube.com/watch?v=SPQ17nosfyg */
+  /*.logo {
+    position: absolute; /* remove the logo from the flow 
+    left: 30px;   /* move the logo to left 
+    height: 20px;
+    width: 70px;
+    display:inline-block;
+    vertical-align:top;
+  }
+  .nav-bar {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+  }
+  
+  .menu-bar {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;    /* gap between menu items */
+ 
+  
+/* Source of code, then modified to fit our own code and desires: https://stackoverflow.com/questions/65456315/logo-on-the-left-and-menu-links-centered */
+
+/* .nav{
     font-size:16vpx;
     background-color: #7EA8DF;
     width:auto;
@@ -9,18 +62,22 @@
     padding-top:0.4rem;
     padding-bottom:0.4rem;
     margin-top:0px;
-    
-}
+} */
 
 body{
    background-color: #ffffff;
-   
+   padding: 0px;
+   margin: 0px;
+
 }
 
 .wrapper{
-    display: grid;
+    display: block;
+    justify-content: center;
+    text-align: center;
     grid-template-columns: 30vw auto minmax(300px, 30vw) 40px;
     grid-auto-rows: minmax(100px, audo);
+
 }
 
 .main-box{
@@ -37,6 +94,17 @@ body{
     */
 }
 
+.ElvishWriting {
+  display: center;
+  justify-content: center;
+  grid-template-columns: 30vw auto minmax(300px, 30vw) 40px;
+  grid-auto-rows: minmax(100px, audo);
+}
+.soundJourney {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .footer-box{
     grid-column: 2 / 3;

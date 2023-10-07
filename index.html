@@ -6,24 +6,24 @@
     <link rel="stylesheet" href="css/main.css">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<header>
-
-</header>
-
 </head>
 
-<nav class="nav">
-    <img src="images/avisnavnliten.png" alt="Fake Fantasy News"/>
-    <a class="nav" href="index.html">F.F.N.</a>
-    <a class="nav" href="html2\index2.html">DATA1200</a>
-
-</nav>
-
-
 <body>
-   <main>
-     <br>
+    <header id="header">
+        <nav> 
+            <div class="logo">
+                <img src="images/avislogo1.png" alt=" Fake Fantasy News"/>
+            </div>
+            <ul>
+                <li><a href="index.html">F.F.N.</li>
+                <li><a href="html2\index2.html">DATA1200</li>
+            </ul>
+        </nav>
+    </header>
+    
+<!--Source of code/then modified to fit our own code: https://stackoverflow.com/questions/65456315/logo-on-the-left-and-menu-links-centered -->
+     <main>
+        <p>&nbsp;</p> 
 
     <div class="wrapper">
         <div class="main-box">
@@ -40,7 +40,7 @@
     <a id="author">Knut Flapstrudel</a>
     <span>- 9/13/2023, 11:00 AM</span>
 
-    <br>
+    <p>&nbsp;</p> 
 
     <picture>
         <source srcset="images/ufoship-oslomet-small.webp" media="(max-width: 850px)">
@@ -53,6 +53,7 @@
 
     </div>
 
+    <p>&nbsp;</p> 
     <!--Vi brukte del -> bygg inn funksjonen i YouTube for videolenker og kode.-->
 
      <!--Nyheter skrevet av: https://chat.openai.com/share/63da47f2-fa4c-4083-9473-33817ff74011?fbclid=IwAR2FAD8sgWSOmWJbMTHm4Ie0CDOPldrz06i6uy67CFBE4yB-Vab5ZBsvIus-->
@@ -83,7 +84,7 @@
 
     <h3>The Material Mystery</h3>
     <p>But here's where the plot thickens. Experts in the field are baffled by the material of the tablet itself. It's composed of a 
-        substance that defies earthly logic – one that doesn't exist in our known periodic table. Does this defy the laws of physics as we 
+        substance that defies earthly logic, one that doesn't exist in our known periodic table. Does this defy the laws of physics as we 
         know them? Or is it just a clever prank by some advanced cosplaying aliens with a penchant for Tolkein?</p>
 
     <h3>Are We the Puppets of Cosmic Puppeteers?</h3>
@@ -107,11 +108,11 @@
 
     <h3>Elinor Runekeeper have translated some of the text from the scrolls, here is the results:</h3>
 
-    <picture>
+    <div class="ElvishWriting">
         <source srcset="images\utdrag-fra-elvish-scrolls-small.webp" media="(max-width: 850px)">
         <source srcset="images\utdrag-fra-elvish-scrolls.webp" media="(max-width: 1500px)">
         <img src="images\utdrag-fra-elvish-scrolls.webp" alt="Ufoship" style="width:auto;">
-      </picture>
+    </div>
 
     <p class="bottom-left">Part of the Elvish Scrolls</p>
     
@@ -131,7 +132,7 @@
 
 
     <p>Hør på podcasten med Professor Elinor Runekeeper her:</p> 
-    <audio controls>
+    <audio controls class="soundJourney">
       <source src="music/intro-podcast.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
@@ -149,163 +150,3 @@
 
 </html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-
-    <p>&nbsp;</p>
-
-    <div class="container">
-        <iframe width="800" height="415" src="https://www.youtube.com/embed/G0m_uNaSres?si=rqPPndX87WbGn0b_" 
-        title="YouTube video player" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        allowfullscreen></iframe>
-        <br></br>
-        <div class="bottom-left">Watch the colorful story and gameplay trailer for Super Mario Bros Wonder.</div>
-    </div>
-
-
-
-    <h2>The characters we all have come to love will return in Super Mario Bros Wonder:</h2>
-   <li>Mario</li><li>Luigi</li><li>Peach</li><li>Daisy</li><li>Yellow Toad</li><li>Blue Toad</li><li>Toadette</li><li>4 different colored versions of Yoshi</li><li>Nabbit</li>
-
-   <h2>New enemies will be introduced</h2>
-   <li>Hoppycats, "who will jump when you jump."</li><li>Melon Piranha Plants, "who will spit seeds from their mouth."</li>
-   <li>Condarts. "They will fly at you and stick their beaks where they don't belong."</li><li>Konks. "They will even plow through goo."</li>
-   <li>Mumsies. "They can be unraveled if you position yourself just right."</li><li>Maw-Maws. "They will eat anything that comes to close to their gaping mouths."</li>
-   <li>Old fiends like Goombas, Koopas Troopas, Boos, Lakitus and many more!</li>
-
-   <h2>New Powerups!</h2>
-   <ul>Elephant form:</ul><li>Use Marios New size to break through blocks and run over large gaps. Use Marios elephant trunk to spit water.</li>
-   <ul>Bubble form:</ul><li>Allows you to blow light, floating bubbles that can capture and defeat enemies, and will drift towards nearby foes. You can even "defeat typically 
-    impervious foes", and "knock out enemies on the other side of walls!". The bubbles can also be used as platforms for parkour.</li>
-   <ul>Drill form:</ul><li>You can easly defeat spiky or hard-headed enemies. You can drill down, drill down under ground and "even burrow into the ceiling!"</li>
-
-   <h2>What we know about Wonder Flowers.</h2>
-    <li>The power Bowser stole in the start of the game.</li>
-    <li>If you touch a Wonder Flower in a course, a wonder effect will trigger, with different outcomes for each and every flower.</li>
-
-    <h2>Badges:</h2>
-    <li>Change the way you play when equipped. Here are some examples:</li>
-        <li>Wall-Climb Jump</li>
-    <li>Parachute Cap: Glide in the air with use of your cap.</li>
-    <li>Dolphin Kick: Swim faster under water, and break underwater blocks.</li>
-    <li>Crouching High Jump: Jump higher after crouching.</li>
-    <li>Grappling Vine: Used as a grappling hock to easier get from point A to B.</li>
-    <li>Safety Bounce: Jump when you touch lava to not die, but instead make a jump.</li>
-    <li>Sensor: Find important items</li>
-
-
-    <h2>New voice for Mario and Luigi?!</h2>
-    
-<div class="container">
-    <iframe width="800" height="415" src="https://www.youtube.com/embed/FElCRjA5Elw?si=SuGM42dY98cAFgmO" 
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen></iframe>
-    <br></br>
-    <div class="bottom-left">Charles Martinet will no longer voice the voices for Mario and Luigi, and he will instead become a Mario Ambassador.</div>
-</div>
-
-
-
-
-<h2> Darkness arrives with Spiderman 2 for PS5 on October 20</h2>
-
-<div class="container">
-    <iframe width="800" height="415" src="https://www.youtube.com/embed/I68XeHhf73E?si=RKkpr46bRIFo0Dhu" 
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen></iframe>
-    <br></br>
-    <div class="bottom-left">Watch the epic story trailer for Spiderman 2.</div>
-</div>
-
-
-<h2>Miles will return!</h2>
-<p>Yes Miles Morales will return in Spiderman 2, making some fans angry and other fans very happy.</p>
-
-
-<div class="container"></div>
-    <iframe width="800" height="415" src="https://www.youtube.com/embed/XrPZSq5YXqc?si=rC-7QgWsGIifo1A5" 
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen></iframe>
-    <br></br>
-    <div class="bottom-left">Watch the epic gameplay trailer for Spiderman 2.</div>
-</div>
-
-
-<h2>Will we be able to play as Venum?</h2>
-    <li>In the gameplay trailer from earlier this year, we saw that it was possible to play as Peter Parker with "The Symbiote Suit". 
-        We are still speculating on who that will turn out to become Venum throughout the course of the game.</li>
-    
-    <li>Some other foes that will will see in the game are: Lizard and Kraven.</li>
-
-    <p>&nbsp;</p>
-
-
-</body>
-
-
-<footer>
-<p>Håvard Elgsaas: s375084@oslomet.no, Yasmin N. Garcia Avalo: yagar3121@oslomet.no, Emma Agnethe Rasch Eldby: emeld7593@oslomet.no</p>
-<a href="html2\index2.html">index2.html</a>
-</footer>
-
--->
