@@ -1,20 +1,36 @@
-.nav{
-    font-size:16vpx;
+#header {
+    display: inline; 
+    justify-content: center; /* center everything */
+    align-items: center;
+    top: 0px;
+   
+  }
+  .logo {
+    position: absolute;
+    left: 0px; /* brings the logo to the very edge of page on the left side */
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  nav ul {
     background-color: #7EA8DF;
-    width:auto;
+    padding-block: 29.3px;
+    margin: 0px;
+    font-size: 25px;
+    text-align: center;
+    list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
     align-items: center;
-    padding-top:0.4rem;
-    padding-bottom:0.4rem;
-    margin-top:0px;
-    
-}
+    gap: 30px;
+  }
 
+  /* source of some of the code above: https://www.youtube.com/watch?v=SPQ17nosfyg */
+ 
 body{
    background-color: #ffffff;
-   
+   padding: 0px;
+   margin: 0px;
 }
 .boxes{
     background-color: #7EA8DF;
@@ -24,28 +40,87 @@ body{
   padding: 20px;
 }
 
-.wrapper{
-    display: grid;
-    grid-template-columns: 30vw auto minmax(300px, 30vw) 40px;
-    grid-auto-rows: minmax(100px, audo);
+.coverFNN {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: xx-large;
 }
 
-.main-box{
-    grid-column:  2 / 3; 
-    grid-row: 1;
+img {
+  max-width: 100%; /* this line and the lines bellow brings flexibility in sizing when minimizing screen */
+  height: auto;
+  width: auto;
+  border-radius: 50%;
+  border: 5px solid #7EA8DF;
 }
 
-.secondary-box{
-    grid-column: 2 / 3;
-    grid-row: 2;
-    /*width: minmax(auto, 80vw);
-    height: 40vw;
-    max-height: 530px;
-    */
+img:hover {
+  transform: scaleX(-1); /* makes funny effect of inversion when setting the mouse on it */
 }
 
+h1, h2, h3 {
+  text-align: center;
+  font-size: larger; /* some specific headings that coould be bigger, i styled on the html document with css */
+}
+
+#flex-container > div {
+  background-color: #E7CCA4;
+  font-size: 16px;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 50px;
+  border: 3px solid #4A4238;
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box div{
+  align-items: center;
+  text-align: center;
+}
+ 
+#flex-container2 { /* index page 2 flex container */
+  font-size: 16px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boxes{ /* index page 2 */
+  background-color: #7EA8DF;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  }
+     
+.ElvishWriting {
+  text-decoration: wavy;
+  font-style: italic;
+}
+
+.soundJourney {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 .footer-box{
-    grid-column: 2 / 3;
-    grid-row: 3;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: #4A4238;
+
 }
+
+/* source of color palet coherence throughout wepage: https://coolors.co/93989f-e7cca4-7ea8df-4a4238-77685d */
