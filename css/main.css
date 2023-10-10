@@ -1,16 +1,11 @@
-/*CSS fra https://arstechnica.com/gaming/2023/09/record-breaking-super-mario-bros-speedrun-approaches-robotic-perfection/*/
-
-body{
-   background-color: #ffffff;
-}
-
-
 .nav{
+    font-size:16vpx;
+    background-color: #7EA8DF;
+    width:auto;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
     align-items: center;
-    background-color: #7ea8df;
 }
 
 
@@ -99,43 +94,22 @@ div{
     padding:20px;
 }
 
-
-.elvish_alphabeth{
-    image-resolution: 200, 2400;
-    /*border: 7px solid #000000;*/
-    /*width:100%;*/
+.main-box{
+    grid-column:  2 / 3; 
+    grid-row: 1;
 }
 
-.elvish_text{
-    image-resolution: 200, 200;
-}
-
-.footerbox{
-    margin-left: 2cm;
-}
-
-/* css fra https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals  men endring i farger og stil */
-.boxes {
-    background-color: #e7cca4;
-    color: #4b4843;
-    border: 2px solid #c7b38e;
-    margin: 20px;
-    padding: 20px;
-}
-
-#author{
-    color: #141414;
+.secondary-box{
+    grid-column: 2 / 3;
+    grid-row: 2;
+    /*width: minmax(auto, 80vw);
+    height: 40vw;
+    max-height: 530px;
+    */
 }
 
 
-.bottom-left{
-    font-size: 13px;
-    font-weight: 600;
-    border-bottom: 1px solid #ccc;
-    padding: 6px 0;
-    box-sizing: inherit;
-    line-height: 22px;
+.footer-box{
+    grid-column: 2 / 3;
+    grid-row: 3;
 }
-
-
-/*Farge kart hentet fra https://coolors.co/93989f-e7cca4-7ea8df-4a4238-77685d */
