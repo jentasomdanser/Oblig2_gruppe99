@@ -74,27 +74,26 @@ h1, h2, h3 {
   justify-content: center;
 }
 
+.box div{
+  align-items: center;
+  text-align: center;
+}
+ 
 #flex-container2 { /* index page 2 flex container */
-  background-color: #E7CCA4;
   font-size: 16px;
-
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 50px;
-  border: 3px solid #4A4238;
-  
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 
-.box div{
-  align-items: center;
-  text-align: center;
-}
-        
+.boxes{ /* index page 2 */
+  background-color: #7EA8DF;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  }
+     
 .ElvishWriting {
   text-decoration: wavy;
   font-style: italic;
