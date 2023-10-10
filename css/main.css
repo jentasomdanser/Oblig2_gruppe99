@@ -16,13 +16,13 @@ body{
    background-color: #ffffff;
    
 }
-/*.boxes{
+.boxes{
     background-color: #7EA8DF;
   color: white;
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
-}*/
+}
 
 .wrapper{
     display: grid;
