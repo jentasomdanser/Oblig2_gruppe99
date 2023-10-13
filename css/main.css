@@ -21,6 +21,8 @@
     left: 0px;  /*brings the logo to the very edge of page on the left side */
     padding-top: 0;
     margin-left: 0;
+    height: 150px;
+    width: 175px;
   }
   
 
@@ -64,8 +66,6 @@ body{
 
 img {
   max-width: 100%; /* this line and the lines bellow brings flexibility in sizing when minimizing screen */
-  height: auto;
-  width: auto;
   border-radius: 50%;
   border: 5px solid #7EA8DF;
 }
@@ -153,6 +153,7 @@ h1, h2, h3 {
     list-style-type: none;
     right: 0;
   }
+  
 
   .menu li{padding-right: 4rem;}
 }
@@ -163,7 +164,9 @@ h1, h2, h3 {
     position: sticky;
     padding-left: 0px;
     background-color: #ffffff;
-   
+  }
+  .logo {
+    display: none
   }
   
   .menu-icon{
