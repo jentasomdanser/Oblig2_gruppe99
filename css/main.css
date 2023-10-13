@@ -141,7 +141,6 @@ h1, h2, h3 {
 /* source of color palet coherence throughout wepage: https://coolors.co/93989f-e7cca4-7ea8df-4a4238-77685d */
 
 
-
 /** Hamburger menu ala Tengel **/
 
 #burger-toggle{display:none;} 
@@ -152,6 +151,7 @@ h1, h2, h3 {
     flex-direction: row;
     justify-content: center;
     list-style-type: none;
+    right: 0;
   }
 
   .menu li{padding-right: 4rem;}
@@ -193,6 +193,7 @@ h1, h2, h3 {
   nav{
     display: flex;
     height: 40px;
+
   }
 }
 
