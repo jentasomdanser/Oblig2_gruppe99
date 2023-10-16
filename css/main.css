@@ -1,8 +1,10 @@
+/**
 #header {
     display: inline; 
-    justify-content: center; /* center everything */
+    justify-content: center;  center everything 
     align-items: center;
     top: 0px;
+<<<<<<< HEAD
   }
   
   nav {
@@ -19,7 +21,31 @@
     margin-left: 110px;
     border-radius: 70%;
   } 
+=======
+  }
+**/
 
+  #header {
+    background-color: var(--siteburgundy);
+    color:aliceblue;
+    line-height: 1.4rem;
+    font-size: 0.9rem;
+   
+  }
+
+ 
+  .logo {
+    position: absolute;
+    left: 0px;  /*brings the logo to the very edge of page on the left side */
+    padding-top: 0;
+    margin-left: 0;
+    height: 150px;
+    width: 175px;
+  }
+  
+>>>>>>> 7c039f136117c0041aab5391364f7ff64286430c
+
+ 
   nav ul {
     background-color: #7EA8DF;
     padding-block: 25px;
@@ -63,6 +89,7 @@
       margin-left: 0%;
     }
   }
+  
 
   /* source of some of the code above: https://www.youtube.com/watch?v=SPQ17nosfyg */
  main {
@@ -77,6 +104,7 @@ body{
    margin: 0px;
 }
 
+<<<<<<< HEAD
 .CoverImg {
   border-radius: 50%;
   border: 5px solid #7EA8DF;
@@ -87,6 +115,8 @@ body{
   transform: scaleX(-1);
 }
 
+=======
+>>>>>>> 7c039f136117c0041aab5391364f7ff64286430c
 .boxes{
   background-color: #7EA8DF;
   color: white;
@@ -107,10 +137,15 @@ body{
   
 }
 
+<<<<<<< HEAD
 /* img {
   max-width: 100%; /* this line and the lines bellow brings flexibility in sizing when minimizing screen 
   height: 70px;
   width: 110px;
+=======
+img {
+  max-width: 100%; /* this line and the lines bellow brings flexibility in sizing when minimizing screen */
+>>>>>>> 7c039f136117c0041aab5391364f7ff64286430c
   border-radius: 50%;
   border: 5px solid #7EA8DF;
 } */
@@ -192,3 +227,64 @@ h1, h2, h3 {
 }
 
 /* source of color palet coherence throughout wepage: https://coolors.co/93989f-e7cca4-7ea8df-4a4238-77685d */
+
+
+/** Hamburger menu ala Tengel **/
+
+#burger-toggle{display:none;} 
+
+@media (min-width: 701px){
+  .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    right: 0;
+  }
+  
+
+  .menu li{padding-right: 4rem;}
+}
+
+@media (max-width: 700px){
+  .menu{
+    list-style-type: none;
+    position: sticky;
+    padding-left: 0px;
+    background-color: #ffffff;
+  }
+  .logo {
+    display: none
+  }
+  
+  .menu-icon{
+    display: block;
+    background-image: url(../images/burgermenu1.svg);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+  }
+
+  .hamburger-toggle-container {cursor: pointer;}
+
+  .menu li {
+    height: 0px;
+    overflow: hidden;
+  }
+
+  #burger-toggle:checked ~ .menu li{
+      height: 1rem;
+      width: auto;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      padding-bottom: 0.5rem;
+      background-color: var(--siteburgundy);
+  }
+
+  nav{
+    display: flex;
+    height: 40px;
+
+  }
+}
+
