@@ -91,8 +91,6 @@ li{
 
 #flex-container > div {
   background-color: #ffffff;
-  margin-top: 10px;
-  margin-bottom: 10px;
   padding: 50px;
   border: 3px solid #ffffff;
   
@@ -130,8 +128,8 @@ li{
 
 #flex-container2 > div{ /* index page 2 flex container */
   background-color: #ffffff;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding: 50px;
   border: 3px solid #ffffff;
   
