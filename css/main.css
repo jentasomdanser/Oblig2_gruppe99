@@ -35,20 +35,22 @@ body{
   margin: 0px;
 }
 
-.coverFNN {
+.cover{
   align-content: center;
   justify-content: center;
   text-align: center;
   font-size: xx-large;
 }
 
-.boxes{
-    background-color: #7EA8DF;
-  color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
+#author{
+  color: rgb(212, 145, 19);
 }
+
+#photographer{
+  color: rgb(212, 145, 19);
+  font-size: 18px;
+}
+  
 
 img {
   max-width: 100%; /* this line and the lines bellow brings flexibility in sizing when minimizing screen */
@@ -60,13 +62,31 @@ img:hover {
   transform: scaleX(-1); /* makes funny effect of inversion when setting the mouse on it */
 }
 
+h1{
+  font-size: larger;
+}
+
 h1, h2, h3 {
   text-align: center;
+  justify-content: center;
   font-size: larger; /* some specific headings that coould be bigger, i styled on the html document with css */
 }
 
+p{
+  font-size:20px;
+}
+
+ul{
+  font-size:20px;
+}
+
+li{
+  font-size:20px;
+}
+
+
 #flex-container > div {
-  background-color: #E7CCA4;
+  background-color: #ffffff;
   font-size: 16px;
 
   margin-left: 100px;
@@ -74,7 +94,7 @@ h1, h2, h3 {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 50px;
-  border: 3px solid #4A4238;
+  border: 3px solid #ffffff;
   
   align-items: center;
   display: flex;
@@ -82,14 +102,11 @@ h1, h2, h3 {
   justify-content: center;
 }
 
-.box div{
-  align-items: center;
-  text-align: center;
-}
 
 .ElvishWriting {
   text-decoration: wavy;
   font-style: italic;
+  width:auto
 }
 
 .soundJourney {
@@ -111,20 +128,23 @@ h1, h2, h3 {
 
 /* styling for page 2 */
 
-#flex-container2 { /* index page 2 flex container */
+#flex-container2 > div{ /* index page 2 flex container */
+  background-color: #ffffff;
   font-size: 16px;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 50px;
+  border: 3px solid #ffffff;
+  
   align-items: center;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.boxes{ /* index page 2 */
-  background-color: #E7CCA4;
-  color: black;
-  border: 2px solid #4A4238;
-  margin: 20px;
-  padding: 20px;
-  }
 
 /* source of color palet coherence throughout wepage: https://coolors.co/93989f-e7cca4-7ea8df-4a4238-77685d */
 
