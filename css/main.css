@@ -4,24 +4,6 @@
     justify-content: center;  center everything 
     align-items: center;
     top: 0px;
-<<<<<<< HEAD
-  }
-  
-  nav {
-    background-color: #7EA8DF;
-    width: 100%;
-    max-width: auto;
-    display: block;
-  }
-  
-  .logo {
-    /* position: left; */
-    display: block;
-    right: 0%; /* brings the logo to the very edge of page on the left side */
-    margin-left: 110px;
-    border-radius: 70%;
-  } 
-=======
   }
 **/
 
@@ -33,7 +15,6 @@
    
   }
 
- 
   .logo {
     position: absolute;
     left: 0px;  /*brings the logo to the very edge of page on the left side */
@@ -43,7 +24,6 @@
     width: 175px;
   }
   
->>>>>>> 7c039f136117c0041aab5391364f7ff64286430c
 
  
   nav ul {
@@ -90,18 +70,19 @@
     }
   }
   
-
   /* source of some of the code above: https://www.youtube.com/watch?v=SPQ17nosfyg */
- main {
-  justify-content: center;
-  padding-left: 20px;
-  padding-right: 20px;
- }
-
+ 
 body{
-   background-color: #ffffff;
-   padding: 0px;
-   margin: 0px;
+  background-color: #ffffff;
+  padding: 0px;
+  margin: 0px;
+}
+
+.coverFNN {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: xx-large;
 }
 
 <<<<<<< HEAD
@@ -126,30 +107,19 @@ body{
 }
 
 .coverFNN {
-  max-width: 100%;
-  height: auto;
-  object-fit: scale-down;
-
-  font-size: xx-large;
   align-content: center;
   justify-content: center;
   text-align: center;
-  
+  font-size: xx-large;
 }
 
-<<<<<<< HEAD
-/* img {
-  max-width: 100%; /* this line and the lines bellow brings flexibility in sizing when minimizing screen 
-  height: 70px;
-  width: 110px;
-=======
 img {
   max-width: 100%; /* this line and the lines bellow brings flexibility in sizing when minimizing screen */
 >>>>>>> 7c039f136117c0041aab5391364f7ff64286430c
   border-radius: 50%;
   border: 5px solid #7EA8DF;
-} */
-/*
+}
+
 img:hover {
   transform: scaleX(-1); /* makes funny effect of inversion when setting the mouse on it 
 } */
@@ -195,15 +165,7 @@ h1, h2, h3 {
   margin: 20px;
   padding: 20px;
   }
-
-.ElvishTablet {
-  max-width: 100%;
-  height: auto;
-  object-fit: scale-down;
-  border-radius: 50%;
-  border: 5px solid #7EA8DF;
-}
-
+     
 .ElvishWriting {
   text-decoration: wavy;
   font-style: italic;
@@ -225,6 +187,23 @@ h1, h2, h3 {
   text-decoration: #4A4238;
 
 }
+
+/* styling for page 2 */
+
+#flex-container2 { /* index page 2 flex container */
+  font-size: 16px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boxes{ /* index page 2 */
+  background-color: #E7CCA4;
+  color: black;
+  border: 2px solid #4A4238;
+  margin: 20px;
+  padding: 20px;
+  }
 
 /* source of color palet coherence throughout wepage: https://coolors.co/93989f-e7cca4-7ea8df-4a4238-77685d */
 
