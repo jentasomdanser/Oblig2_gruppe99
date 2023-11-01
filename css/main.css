@@ -15,8 +15,7 @@
     width: 175px;
   }
   
-  nav ul {
-    background-color: #7EA8DF;
+    nav ul {
     padding-block: 29.3px;
     margin: 0px;
     font-size: 25px;
@@ -26,6 +25,14 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+  }
+
+  .nav1{
+    background-color: #7EA8DF;
+  }
+
+  .nav2{
+    background-color: #f7af15;
   }
   
   /* source of some of the code above: https://www.youtube.com/watch?v=SPQ17nosfyg */
@@ -52,13 +59,18 @@ body{
 }
   
 
-img {
+.imgFFN img{
   max-width: 100%; /* this line and the lines bellow brings flexibility in sizing when minimizing screen */
   border-radius: 50%;
   border: 5px solid #7EA8DF;
 }
+
+.imgOslomet img{
+  max-width: 100%;
+  width: 900px;
+}
  
-img:hover {
+.hover >img:hover {
   transform: scaleX(-1); /* makes funny effect of inversion when setting the mouse on it */
 }
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Oblig2</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css\main.css">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -11,13 +11,17 @@
 <body>
     
     <header id="header">
-        <nav> 
+        <nav class="nav1"> 
             <input id="burger-toggle" type="checkbox">¨
             <label class="humburger-toggle-container" for="burger-toggle">
                 <div class="menu-icon"></div> 
             </label>
         <div class="logo">
-                <img src="images/avislogo1.png" alt=" Fake Fantasy News"/>
+            <div class="imgFFN">
+            <div class="hover">
+                <img src="images\avislogo1.png" alt="Fake Fantasy News"/>
+            </div>
+            </div>
             </div>
         
             <ul class="menu">
@@ -50,11 +54,15 @@
     <picture>
        <!-- <source srcset="images/ufoship-oslomet-small.webp" media="(max-width: 850px)">
             <source srcset="images/ufoship-oslomet.webp" media="(max-width: 1500px)">      -->
-        <img src="images/ufoship-oslomet.webp" alt="UFOship">
+        <div class="imgFFN">
+        <div class="hover">
+            <img src="images\ufoship-oslomet.webp" alt="UFOship">
+        </div>
+        </div>
       </picture>
      <p id="photographer">Photographer: Yasmin N. Garcia Avalo</p>
 
-    </div>
+    </picture>
 
 <div id="flex-container">
 
@@ -126,7 +134,11 @@
     <h3>Elinor Runekeeper have translated some of the text from the scrolls, here is the results:</h3>
 
     <div class="ElvishWriting">
+    <div class="imgFFN">
+    <div class="hover">
         <img src="images\utdragElvishText.png" alt="Unknown Object left by alienship">
+    </div>
+    </div>
     </div>
     </div>
     <!-- Easy photoshop by Yasmin on the above picture. 
@@ -157,10 +169,10 @@
     <div class="soundJourney">
     <p><strong>Hør på podcasten med Professor Elinor Runekeeper her:</strong></p> 
     <audio controls class="soundJourney">
-      <source src="music/fake-fantasy-news-podcast.wav" type="audio/wav">
+      <source src="music\fake-fantasy-news-podcast.wav" type="audio/wav">
     </audio>
     </div>
-  
+    
    </main>
 
     <footer class ="footer-box">
